@@ -3,7 +3,7 @@
  * Home page.
  */
 exports.index = function(req, res) {
-  res.render('index', {
-    title: 'Change records API enabler'
+  res.render('home', {
+    title: 'Home'
   });
 };

@@ -1,20 +1,29 @@
-# https://github.com/github/gitignore/blob/master/Node.gitignore
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Runtime data
-pids
-*.pid
+lib-cov
 *.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+pids
+logs
+results
+tmp
 
-# Dependency directories
+# API keys and secrets
+.env
+
+# Dependency directory
 node_modules
-jspm_packages
+bower_components
 
-# Optional npm cache directory
-.npm
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
